@@ -1,0 +1,41 @@
+GUI-TERMUX-/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   └── workflows/
+│       └── build-apk.yml
+├── gui_termux_engine/
+│   ├── __init__.py
+│   ├── listener.py
+│   ├── readme_analyzer.py
+│   ├── vision_compiler.py
+│   ├── ui_catalog.py
+│   ├── termux_executor.py
+│   ├── update_manager.py
+│   ├── repo_loader.py
+│   ├── bridge_server.py
+│   └── cli.py
+├── android-ui/
+│   ├── settings.gradle.kts
+│   ├── build.gradle.kts
+│   └── app/
+│       ├── build.gradle.kts
+│       └── src/main/
+│           ├── AndroidManifest.xml
+│           └── java/com/guitermux/ui/
+│               ├── MainActivity.kt
+│               └── SimpleRepoUi.kt
+├── updates/
+│   └── sample-expansion/
+│       ├── update.json
+│       └── apply.sh
+├── .gitignore
+├── Get
+├── update
+├── pyproject.toml
+├── requirements.txt
+├── LICENSE
+├── CONTRIBUTING.md
+└── README.md
