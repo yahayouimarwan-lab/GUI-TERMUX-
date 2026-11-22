@@ -1,0 +1,14 @@
+# GUI-termux
+
+**Termux-backed GUI engine turning GitHub repositories into clean visual workspaces with Termux as the true execution backend.**
+
+- **Author:**  (M-Y) —10flow (`Marouane Yahiaoui`)
+- **GitHub CLI:** `gh repo clone yahayouimarwan-lab/GUI-TERMUX-`
+- **HTTPS:** `https://github.com/yahayouimarwan-lab/GUI-TERMUX-.git`
+- **SSH:** `git@github.com:yahayouimarwan-lab/GUI-TERMUX-.git`
+
+## Commands in Termux
+
+### 1. One-Time Setup & Build (Forever)
+```bash
+Get GUI-T
